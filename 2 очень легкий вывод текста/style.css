@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+.quote{
+    width: 1000px;
+    height: 180px;
+    margin-top: 70px;
+    /* margin-left: 470px; */
+    margin-left: 20%; 
+    /* 25% від ширини батьківського елемента */
+}
+.quote_content{
+    display: inline-block;
+    margin-left: 60px;
+}
+.quote_text{
+    font-family: 'Roboto', sans-serif; /* замініть 'Ваш_шрифт' на назву вашого шрифту */
+    font-weight: 300; /* значення 300 відповідає стилю Light у багатьох шрифтах */
+    font-style: italic;
+    font-size: 24px;   
+    line-height: 36px;
+    color: #999999;
+    width: 755px;
+    height: 100px;
+}
+.quote_author{
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-size: 24px; 
+    display: inline-block;  
+}
+.line{
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.image{
+    width: 140px;
+    height: 140px;
+    background-color: rgba(0,0,0,0);
+    border: 3px solid #95e1d3;
+    display: inline-block;
+    
+}
+.image img{
+    width: 63px;
+    height: 61px;
+    /* padding: 40px; */
+    margin: 40px;
+}
+.author{
+    margin-top: 25px;
+}

@@ -1,0 +1,21 @@
+/* Базовий клас для всіх тварин */
+.animal {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Клас для собак, наслідує стилі класу animal */
+.dog {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+/* Клас для котів, наслідує стилі класу animal */
+.cat {
+    background-color: lightpink;
+    color: darkred;
+}

@@ -1,0 +1,56 @@
+.example {
+    padding: 20px;
+}
+
+/* Блочні елементи */
+.block-box {
+    background-color: 	hsl(0, 100%, 95%);
+    border: 2px solid #e57373;
+    padding: 10px;
+    margin: 10px 0;
+    /* display: block; - не потрібно вказувати, бо div блочний за замовчуванням */
+}
+
+/* Строчні елементи */
+.inline-box {
+    background-color: #c8e6c9;
+    border: 2px solid #81c784;
+    padding: 10px;
+    margin: 10px;
+    /* display: inline; - не потрібно вказувати, бо span строчний за замовчуванням */
+}
+
+/* Строчно-блочні елементи */
+.inline-block-box {
+    display: inline-block;
+    background-color: #bbdefb;
+    border: 2px solid #64b5f6;
+    padding: 10px;
+    margin: 10px;
+    width: 150px; /* можемо задавати ширину */
+    height: 50px; /* можемо задавати висоту */
+}
+
+/* Зміна блочного на строчний */
+.block-to-inline {
+    display: inline;
+    background-color: #fff9c4;
+    border: 2px solid #fff176;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Зміна строчного на блочний */
+.inline-to-block {
+    display: block;
+    background-color: #e1bee7;
+    border: 2px solid #ba68c8;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Стилі для заголовків */
+h3 {
+    margin-top: 30px;
+    color: #333;
+}
